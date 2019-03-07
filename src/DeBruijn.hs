@@ -152,7 +152,7 @@ displayHelp = do hPutStrLn stderr "USAGE: ./deBruijn n [a] [--check|--unique|--c
                  hPutStrLn stderr ""
                  hPutStrLn stderr "      --check       check if a sequence is a de Bruijn sequence"
                  hPutStrLn stderr "      --unique      check if 2 sequences are distinct de Bruijn sequences"
-                 hPutStrLn stderr "      --clean       list cleaning"
+                 hPutStrLn stderr "      --clean       list cleaning (terminated by END)"
                  hPutStrLn stderr "      --read        read a file with instructions"
                  hPutStrLn stderr "      --lyndon      extract all lyndon words from a sequence"
                  hPutStrLn stderr "      --circular    shows all circular variante of a sequence"

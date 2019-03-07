@@ -7,7 +7,7 @@ USAGE: ./deBruijn n [a] [--check|--unique|--clean|--lyndon|--circular|--read -> 
 
       --check       check if a sequence is a de Bruijn sequence
       --unique      check if 2 sequences are distinct de Bruijn sequences
-      --clean       list cleaning
+      --clean       list cleaning (Terminated by END)
       --read        read a file with instructions
       --lyndon      extract all lyndon words from a sequence
       --circular    shows all circular variante of a sequence
