@@ -156,6 +156,6 @@ displayHelp = do hPutStrLn stderr "USAGE: ./deBruijn n [a] [--check|--unique|--c
                  hPutStrLn stderr "      --read        read a file with instructions"
                  hPutStrLn stderr "      --lyndon      extract all lyndon words from a sequence"
                  hPutStrLn stderr "      --circular    shows all circular variante of a sequence"
-                 hPutStrLn stderr "      n             order of the sequence"
+                 hPutStrLn stderr "      n             order of the sequence (> 0)"
                  hPutStrLn stderr "      a             alphabet [def: “01”]"
                  exitWith (ExitFailure 84)

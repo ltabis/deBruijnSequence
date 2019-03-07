@@ -11,7 +11,7 @@ USAGE: ./deBruijn n [a] [--check|--unique|--clean|--lyndon|--circular|--read -> 
       --read        read a file with instructions
       --lyndon      extract all lyndon words from a sequence
       --circular    shows all circular variante of a sequence
-      n             order of the sequence
+      n             order of the sequence (> 0)
       a             alphabet [def: “01”]
 ```
 
