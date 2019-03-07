@@ -14,3 +14,52 @@ USAGE: ./deBruijn n [a] [--check|--unique|--clean|--lyndon|--circular|--read -> 
       n             order of the sequence
       a             alphabet [def: “01”]
 ```
+
+## --read option exemple
+
+```
+CHECK
+00010111
+
+CHECK
+00010111a
+
+
+
+GENERATE
+
+UNIQUE
+010101
+010100
+
+CLEAR
+ABVEDQFEF
+SFE
+101001
+001110
+00010111
+END
+
+LYNDON
+00010111
+
+
+CIRCULAR
+00010111
+```
+
+All options are supported, comments aren't.
+
+## Dependencies
+
+> Haskell
+
+> Stack 12.18
+
+> Cabal
+
+> Tasty
+
+> Hspec
+
+> Text
