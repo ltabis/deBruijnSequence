@@ -50,16 +50,21 @@ CIRCULAR
 
 All options are supported, comments aren't.
 
+Use ```make``` to compile an executable.
+Use ```make tests_run``` to launch unit tests.
+
 ## Dependencies
 
-> Haskell
+> ...Haskell
 
 > Stack 12.18
 
-> Cabal
+> ... Cabal
 
 > Tasty
 
 > Hspec
 
 > Text
+
+> ... Makefile
